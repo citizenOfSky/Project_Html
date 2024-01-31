@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 30vh;
+    background: #03084b;
+}
+div{
+    display: flex;
+}
+main{
+    width: 70vw;
+    height: 70vh;
+    background: #696464;
+}
+aside{
+    width: 30vw;
+    height: 70vh;
+    background: #441818;
+}

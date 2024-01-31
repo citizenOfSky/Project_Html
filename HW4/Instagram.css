@@ -1,0 +1,100 @@
+
+body{
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.flex{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    width: 30vw;
+    height: 80vh;
+    margin-top: 25px;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    width: 30vw;
+    height: 20vh;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+img{
+    width: 18vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+a{
+    text-decoration: none;
+}
+.alt img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+    margin-top: 0;
+}
+.alt{
+    margin-top: 0;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="password"]
+{
+    width: 23vw;
+    height: 5vh;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: solid 2px rgba(138, 132, 132, 0.3) ;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    background: rgba(78, 73, 73, 0.05);
+    padding-left: 15px;
+}
+
+input[type="submit"]
+{
+    width: 23vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    background: rgba(57, 116, 222, 0.7);
+    margin-top: 12px;
+    font-size: 20px;
+    color: white;
+}
+.or{
+    font-size: 20px;
+    color: rgb(78, 73, 73);
+    margin-bottom: 0;
+}
+.enterFB{
+    color: #03084b;
+    font-size: 20px
+}
+.forget{
+    color: #03084b;
+    font-size: 18px;
+
+}

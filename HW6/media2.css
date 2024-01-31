@@ -1,0 +1,21 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    header, footer{
+        width: 100vw;
+        height: 20vh;
+    }
+    main{
+        width: 100vw;
+        height: 40vh;
+    }
+    .left, .right{
+        width: 33.33vw;
+        height: 20vh;
+    }
+    .center{
+        width: 33.34vw;
+        height: 20vh;
+    }
+    .flex{
+        flex-direction: column;
+    }
+}

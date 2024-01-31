@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 34vh;
+    background: #058f8b;
+}
+.flex, .box{
+    display: flex;
+}
+main {
+    width: 75vw;
+    height: 33vh;
+    background: #e0a710;
+}
+.left, .center, .right{
+    width: 25vw;
+    height: 33vh;
+}
+.left{
+    background: coral;
+}
+.center{
+    background: cadetblue;
+}
+.right{
+    background: #062964;
+}
+footer{
+    width: 25vw;
+    height: 66vh;
+    background: darkgreen;
+    display: flex;
+}
